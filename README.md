@@ -3,7 +3,7 @@
 
 ### A  directory layout
 
-- `components`              --  common UI components of Web Page such as header, footer  
+- `components`              --  common UI components of a web page such as header, footer  
 - `ethereum`                --  ethereum files  
   - `build`                 --  compiled contracts
     - `<contract-name>.json`--  compiled contract of `<contract-name>.sol`
@@ -22,3 +22,4 @@
 - `routes.js`             --  list the routes of the project
 - `server.js`             --  http server, entry point of the project
 - `README.md`             --  readme file of the project
+-
