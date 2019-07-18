@@ -12,8 +12,8 @@
   - `<contract-name>.js`    --
   - `compile.js`            --  compiles `<contract-name>.sol` file and generates `<contract-name>.json` file
   - `deploy.js`             --   deploys the compiled contract onto Blockchain Network (e.g., Rinkeby)
-  - `factory.js`            --
-  - `web3.js`               --
+  - `factory.js`            -- It tells web3 that a deployed copy of the contract exists.
+  - `web3.js`               --  It configures web3 with a provider from metamask.
 - `pages`                   --  this directory contains react components that get turned into visitable webpages
   - `index.js`              --  home page of application
 - `test`                    --  test cases of smart contract
@@ -39,6 +39,7 @@
 - Step 5: deploy the contract on a test network (e.g., Rinkeby).
 - Step 6: extract the address of the deployed contract from console.
 - Step 7: Copy the address into `contract-address.txt` file for future use.
+- Step 8: Create React components into `pages` directory.
 
 ### WebApp and Smart Contract Interaction ###
 
@@ -95,6 +96,16 @@ alt="Ethereum-based Web Application Architecture" width="550" height="280" borde
 <p align="center">
 <a href=""target="_blank">
 <img src="https://github.com/pankeshpatel/DApp-MultiPage-Template/blob/master/resource/web3-inject.PNG"
+alt="Ethereum-based Web Application Architecture" width="550" height="280" border="10" />
+</a>
+</p>
+
+### web3 and contract (`/ethereum/factory.js`)
+> It tells that a deployed copy of the contract on Rinkeby network exists
+
+<p align="center">
+<a href=""target="_blank">
+<img src="https://github.com/pankeshpatel/DApp-MultiPage-Template/blob/master/resource/web3-contract.PNG"
 alt="Ethereum-based Web Application Architecture" width="550" height="280" border="10" />
 </a>
 </p>
