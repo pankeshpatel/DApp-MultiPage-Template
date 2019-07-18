@@ -89,6 +89,16 @@ alt="Ethereum-based Web Application Architecture" width="550" height="280" borde
 </a>
 </p>
 
+### web3 configuration (`/ethereum/web3.js`)
+> Configure `web3` with a provider from a metamask.
+
+<p align="center">
+<a href=""target="_blank">
+<img src="https://github.com/pankeshpatel/DApp-MultiPage-Template/blob/master/resource/web3-inject.PNG"
+alt="Ethereum-based Web Application Architecture" width="550" height="280" border="10" />
+</a>
+</p>
+
 
 
 
