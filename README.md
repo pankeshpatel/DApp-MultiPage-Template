@@ -13,7 +13,7 @@
   - `compile.js`            --  compiles `<contract-name>.sol` file and generates `<contract-name>.json` file
   - `deploy.js`             --   deploys the compiled contract onto Blockchain Network (e.g., Rinkeby)
   - `factory.js`            -- It tells web3 that a deployed copy of the contract exists.
-  - `web3.js`               --  It configures web3 with a provider from metamask.
+  - `web3.js`               --  It configures web3 with a **Blockchain network provider** from metamask.
 - `pages`                   --  this directory contains react components that get turned into visitable webpages
   - `index.js`              --  home page of application
 - `test`                    --  test cases of smart contract
