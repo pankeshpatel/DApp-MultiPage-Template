@@ -22,12 +22,17 @@
 - `routes.js`             --  list the routes of the project
 - `server.js`             --  http server, entry point of the project
 - `README.md`             --  readme file of the project
+- `node_modules`          --  project dependencies
 
+# dependencies installation
+
+- `npm init` to generate `package.json` file
+- `npm install --save ganache-cli mocha solc@0.4.17 fs-extra web3@1.0.0-beta.35` to install dependencies
 
 
 ### WebApp and Smart Contract Interaction ###
 
-> This is an example of how factory pattern can be used to deploy different instances of a smart contract. 
+> This is an example of how factory pattern can be used to deploy different instances of a smart contract.
 
 <p align="center">
 <a href=""target="_blank">
