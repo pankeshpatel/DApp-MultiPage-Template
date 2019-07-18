@@ -1,3 +1,4 @@
+// Import  the installed npm install --save next-routes libary
 const routes = require('next-routes')();
 
 routes

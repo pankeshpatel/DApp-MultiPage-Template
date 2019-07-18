@@ -138,7 +138,7 @@ alt="Ethereum-based Web Application Architecture" width="550" height="280" borde
 </a>
 </p>
 
-### nextjs server and routes.js
+### nextjs server (`server.js`) and `routes.js`
 
 <p align="center">
 <a href=""target="_blank">
