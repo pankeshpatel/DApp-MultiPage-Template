@@ -13,7 +13,7 @@
   - `compile.js`            --  compiles `<contract-name>.sol` file and generates `<contract-name>.json` file
   - `deploy.js`             --   deploys the compiled contract onto Blockchain Network (e.g., Rinkeby)
   - `factory.js`            -- It tells web3 that a deployed copy of the contract exists.
-  - `web3.js`               --  It configures web3 with a **Blockchain network provider** from metamask.
+  - `web3.js`               --  It configures web3 with a **Blockchain network provider** (in our case it is Rinkeby BC network) from metamask.
 - `pages`                   --  this directory contains react components that get turned into visitable webpages
   - `index.js`              --  home page of application
 - `test`                    --  test cases of smart contract
@@ -30,6 +30,8 @@
 - `npm install --save ganache-cli mocha solc@0.4.17 fs-extra web3@1.0.0-beta.35` to install dependencies
 - `npm install --save truffle-hdwallet-provider@0.0.3` for deployment dependencies
 - `npm install --save next@4.1.4 react react-dom` for `next.js` dependencies
+- `npm install --save semantic-ui-react` for UI components
+- `npm install --save semantic-ui-css` for semantic UI stylesheet
 
 # User guide
 - Step 1: write smart contract (`.sol` file) into Remix Editor
@@ -122,6 +124,20 @@ alt="Ethereum-based Web Application Architecture" width="550" height="280" borde
 alt="Ethereum-based Web Application Architecture" width="550" height="280" border="10" />
 </a>
 </p>
+
+### nextjs page rendering at the server side
+
+> The nextjs server renders the HTML page and sends the HTML pages to the browser.
+`getInitialProps()` function is executed at nextjs server.
+
+<p align="center">
+<a href=""target="_blank">
+<img src="https://github.com/pankeshpatel/DApp-MultiPage-Template/blob/master/resource/nextjs-page-rendering.PNG"
+alt="Ethereum-based Web Application Architecture" width="550" height="280" border="10" />
+</a>
+</p>
+
+
 
 
 

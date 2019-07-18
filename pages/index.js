@@ -8,11 +8,14 @@ import Layout from '../components/Layout';
 import { Link } from '../routes';
 
 class CampaignIndex extends Component {
+
+  // The getInitialProps() is executed by nextjs server.
   static async getInitialProps() {
     // This access the deployed contract.
     const campaigns = await factory.methods.getDeployedCampaigns().call();
 
     return { campaigns };
+    // you can access this variable using this.props.campaigns
   }
 
   renderCampaigns() {
@@ -31,12 +34,12 @@ class CampaignIndex extends Component {
     return <Card.Group items={items} />;
   }
 
+// This function generates HTML page, sends it to the client browser
   render() {
     return (
       <Layout>
         <div>
           <h3>Open Campaigns</h3>
-
           <Link route="/campaigns/new">
             <a>
               <Button
