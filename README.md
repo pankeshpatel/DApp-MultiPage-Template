@@ -29,7 +29,7 @@
 - `npm init` to generate `package.json` file
 - `npm install --save ganache-cli mocha solc@0.4.17 fs-extra web3@1.0.0-beta.35` to install dependencies
 
-# User Guide
+# User guide
 - Step 1: write smart contract (`.sol` file) into Remix Editor
 - Step 2: copy paste the smart contract (`.sol` file) into a file of `contracts` directory.
 - Step 3: compile the contract using `compile.js`
