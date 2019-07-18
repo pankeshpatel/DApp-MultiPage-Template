@@ -29,6 +29,15 @@
 - `npm init` to generate `package.json` file
 - `npm install --save ganache-cli mocha solc@0.4.17 fs-extra web3@1.0.0-beta.35` to install dependencies
 
+> Write operation in test file
+
+`await factory.methods.createCampaign('100').send({
+  from: accounts[0],
+  gas: '1000000'
+});`
+
+
+
 
 ### WebApp and Smart Contract Interaction ###
 

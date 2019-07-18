@@ -21,10 +21,10 @@ beforeEach(async () => {
 
   // Call creatCampaign() method of the deployed contract
 
-  // Write operation
+  // Write operation --
   // Send() is used whenever, we try to modify the data of a smart contract.
 
-  // Read operation
+  // Read operation --
   // Call() is used whenever, we try to call a function of a smart contract.
   // In call(), there is not data modification.
   await factory.methods.createCampaign('100').send({
