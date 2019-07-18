@@ -20,7 +20,7 @@
   - `<contract-name>.test.js`-- test case of the `<contract-name>`
 - `package.json`          --  project information and list require dependencies for the project
 - `routes.js`             --  list the routes of the project
-- `server.js`             --  http server, entry point of the project
+- `server.js`             --  boot up `nextjs` server and tells to use `routes.js`
 - `README.md`             --  readme file of the project
 - `node_modules`          --  project dependencies
 
@@ -32,6 +32,7 @@
 - `npm install --save next@4.1.4 react react-dom` for `next.js` dependencies
 - `npm install --save semantic-ui-react` for UI components
 - `npm install --save semantic-ui-css` for semantic UI stylesheet
+- `npm install --save next-routes` for routing
 
 # User guide
 - Step 1: write smart contract (`.sol` file) into Remix Editor
@@ -137,7 +138,14 @@ alt="Ethereum-based Web Application Architecture" width="550" height="280" borde
 </a>
 </p>
 
+### nextjs server and routes.js
 
+<p align="center">
+<a href=""target="_blank">
+<img src="https://github.com/pankeshpatel/DApp-MultiPage-Template/blob/master/resource/server.PNG"
+alt="Ethereum-based Web Application Architecture" width="550" height="280" border="10" />
+</a>
+</p>
 
 
 
