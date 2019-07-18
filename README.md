@@ -22,4 +22,13 @@
 - `routes.js`             --  list the routes of the project
 - `server.js`             --  http server, entry point of the project
 - `README.md`             --  readme file of the project
--
+
+
+
+### WebApp and Smart Contract Interaction ###
+
+<p align="center">
+<a href=""target="_blank">
+<img src="https://github.com/pankeshpatel/DApp-MultiPage-Template/blob/master/resource/app-high-architecture.PNG" alt="Ethereum-based Web Application Architecture" width="450" height="280" border="10" />
+</a>
+</p>
