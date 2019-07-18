@@ -27,6 +27,8 @@
 
 ### WebApp and Smart Contract Interaction ###
 
+> This is an example of how factory pattern can be used to deploy different instances of a smart contract. 
+
 <p align="center">
 <a href=""target="_blank">
 <img src="https://github.com/pankeshpatel/DApp-MultiPage-Template/blob/master/resource/app-high-architecture.PNG" alt="Ethereum-based Web Application Architecture" width="550" height="280" border="10" />
