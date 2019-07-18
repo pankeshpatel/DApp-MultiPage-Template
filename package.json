@@ -23,6 +23,9 @@
     "fs-extra": "^8.1.0",
     "ganache-cli": "^6.5.0",
     "mocha": "^6.1.4",
+    "next": "^4.1.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "solc": "^0.4.17",
     "truffle-hdwallet-provider": "0.0.3",
     "web3": "^1.0.0-beta.35"

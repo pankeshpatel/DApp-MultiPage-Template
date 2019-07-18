@@ -29,6 +29,7 @@
 - `npm init` to generate `package.json` file
 - `npm install --save ganache-cli mocha solc@0.4.17 fs-extra web3@1.0.0-beta.35` to install dependencies
 - `npm install --save truffle-hdwallet-provider@0.0.3` for deployment dependencies
+- `npm install --save next@4.1.4 react react-dom` for `next.js` dependencies
 
 # User guide
 - Step 1: write smart contract (`.sol` file) into Remix Editor
@@ -64,6 +65,19 @@
 <img src="https://github.com/pankeshpatel/DApp-MultiPage-Template/blob/master/resource/compile-js-steps.PNG" alt="Ethereum-based Web Application Architecture" width="550" height="280" border="10" />
 </a>
 </p>
+
+### Next.js
+
+> `next.js` wraps `react.js` with some more functionalities such as routing, server-side rendering, hot module reload and so on.
+
+<p align="center">
+<a href=""target="_blank">
+<img src="https://github.com/pankeshpatel/DApp-MultiPage-Template/blob/master/resource/nextjs.PNG"
+alt="Ethereum-based Web Application Architecture" width="550" height="280" border="10" />
+</a>
+</p>
+
+
 
 
 
