@@ -14,7 +14,7 @@
   - `deploy.js`             --   deploys the compiled contract onto Blockchain Network (e.g., Rinkeby)
   - `factory.js`            --
   - `web3.js`               --
-- `pages`                   --  reactJS files to render pages
+- `pages`                   --  this directory contains react components that get turned into visitable webpages
   - `index.js`              --  home page of application
 - `test`                    --  test cases of smart contract
   - `<contract-name>.test.js`-- test case of the `<contract-name>`
@@ -73,6 +73,18 @@
 <p align="center">
 <a href=""target="_blank">
 <img src="https://github.com/pankeshpatel/DApp-MultiPage-Template/blob/master/resource/nextjs.PNG"
+alt="Ethereum-based Web Application Architecture" width="550" height="280" border="10" />
+</a>
+</p>
+
+### pages
+> this repository contains React components (as `.js` files) that get turned into visitable webpages.
+When installed `.nextjs` (from `.next` folder) starts, it see the react components into `pages` directory
+and turn each into routes (according to its directory path), as shown belowed.
+
+<p align="center">
+<a href=""target="_blank">
+<img src="https://github.com/pankeshpatel/DApp-MultiPage-Template/blob/master/resource/pages.PNG"
 alt="Ethereum-based Web Application Architecture" width="550" height="280" border="10" />
 </a>
 </p>
