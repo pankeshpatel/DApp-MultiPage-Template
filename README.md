@@ -1,16 +1,16 @@
 ### DApp-MultiPage-Template ###
-A template for Ethereum-based  DApp.
+>A template for Ethereum-based  DApp.
 
-### Template Structure
+### A  top-level directory layout
 
 `DApp-MultiPage-Template`
       `|`
-      `ethereum`
-        `|_` `build`
-        `|_` `contracts`
+      `ethereum`               # Ethereum files, Smart Contracts
+        `|--` `build`          # Compiled contracts
+        `|--` `contracts`      # Solidity contracts,
       `|`
-      `components`
+      `components`             # Common UI components of Web Page such as Header, Footer
       `|`
-      `pages`
+      `pages`                  # ReactJS files to render pages
       `|`
-      `test`
+      `test`                   # test cases with smart contract, before it is deployed on Blockchain network
