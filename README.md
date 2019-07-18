@@ -39,3 +39,19 @@
 <img src="https://github.com/pankeshpatel/DApp-MultiPage-Template/blob/master/resource/app-high-architecture.PNG" alt="Ethereum-based Web Application Architecture" width="550" height="280" border="10" />
 </a>
 </p>
+
+### Smart contract compilation using solidity compiler
+
+<p align="center">
+<a href=""target="_blank">
+<img src="https://github.com/pankeshpatel/DApp-MultiPage-Template/blob/master/resource/app-high-architecture.PNG" alt="Ethereum-based Web Application Architecture" width="550" height="280" border="10" />
+</a>
+</p>
+
+### ethereum/compile.js 
+
+
+
+
+
+> Source of images: "Ethereum and Solidity: The Complete Developer's Guide" by Stephen Grider
