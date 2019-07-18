@@ -1,2 +1,2 @@
-# DApp-MultiPage-Template
-A Template for Ethereum-based  DApp.
+### DApp-MultiPage-Template ###
+A template for Ethereum-based  DApp.
