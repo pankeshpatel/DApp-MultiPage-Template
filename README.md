@@ -42,6 +42,7 @@
 - Step 8: Create React components into `pages` directory.
 - Step 9 : configures web3 with a provider from metamask in `web3.js`
 - Step 10: update `factory.js` file with a deployed contract address (specified in `contract-address.txt`)
+- Step 11: Use factory instance in React components (in `pages` directory) to interact with a deployed contract
 
 ### WebApp and Smart Contract Interaction ###
 
@@ -98,6 +99,16 @@ alt="Ethereum-based Web Application Architecture" width="550" height="280" borde
 <p align="center">
 <a href=""target="_blank">
 <img src="https://github.com/pankeshpatel/DApp-MultiPage-Template/blob/master/resource/web3-inject.PNG"
+alt="Ethereum-based Web Application Architecture" width="550" height="280" border="10" />
+</a>
+</p>
+
+> next.js rendering at the server. It renders the pages and sends the HTML code to the browser first,
+then it sends javascript code to the browser.
+
+<p align="center">
+<a href=""target="_blank">
+<img src="https://github.com/pankeshpatel/DApp-MultiPage-Template/blob/master/resource/nextjs-rendering.PNG"
 alt="Ethereum-based Web Application Architecture" width="550" height="280" border="10" />
 </a>
 </p>

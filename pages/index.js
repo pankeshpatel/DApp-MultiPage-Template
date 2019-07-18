@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import { Card, Button } from 'semantic-ui-react';
+
+// Use Factory instance to reterive a list of deplyed campaigns
 import factory from '../ethereum/factory';
+
 import Layout from '../components/Layout';
 import { Link } from '../routes';
 
 class CampaignIndex extends Component {
   static async getInitialProps() {
+    // This access the deployed contract.
     const campaigns = await factory.methods.getDeployedCampaigns().call();
 
     return { campaigns };
