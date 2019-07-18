@@ -10,3 +10,12 @@
    ├── pages           # ReactJS files to render pages
    ├── test            # test cases with smart contract, before it is deployed on BC                          
    └── README.md
+
+   .
+   ├── build                   # Compiled files (alternatively `dist`)
+   ├── docs                    # Documentation files (alternatively `doc`)
+   ├── src                     # Source files (alternatively `lib` or `app`)
+   ├── test                    # Automated tests (alternatively `spec` or `tests`)
+   ├── tools                   # Tools and utilities
+   ├── LICENSE
+   └── README.md
