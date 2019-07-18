@@ -40,6 +40,8 @@
 - Step 6: extract the address of the deployed contract from console.
 - Step 7: Copy the address into `contract-address.txt` file for future use.
 - Step 8: Create React components into `pages` directory.
+- Step 9 : configures web3 with a provider from metamask in `web3.js`
+- Step 10: update `factory.js` file with a deployed contract address (specified in `contract-address.txt`)
 
 ### WebApp and Smart Contract Interaction ###
 
