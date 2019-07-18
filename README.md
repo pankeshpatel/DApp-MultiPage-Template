@@ -47,6 +47,8 @@
 - Step 10: update `factory.js` file with a deployed contract address (specified in `contract-address.txt`)
 - Step 11: Use factory instance in React components (in `pages` directory) to interact with a deployed contract
 
+> Source of images: "Ethereum and Solidity: The Complete Developer's Guide" by Stephen Grider
+
 ### WebApp and Smart Contract Interaction ###
 
 > This is an example of how factory pattern can be used to deploy different instances of a smart contract.
@@ -146,9 +148,3 @@ alt="Ethereum-based Web Application Architecture" width="550" height="280" borde
 alt="Ethereum-based Web Application Architecture" width="550" height="280" border="10" />
 </a>
 </p>
-
-
-
-
-
-> Source of images: "Ethereum and Solidity: The Complete Developer's Guide" by Stephen Grider
